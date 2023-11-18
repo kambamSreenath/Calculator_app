@@ -45,8 +45,12 @@ body{
 @media screen and (max-width: 600px) {
     /* Adjustments for smaller screens (example: mobile devices) */
     .calculator {
-      width: 90%; /* Adjust the width for better mobile display */
-      margin: 20px auto;
+        width: 90%; /* Adjust the width for better mobile display */
+        margin: 20px auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
   
     .calculator-display {
