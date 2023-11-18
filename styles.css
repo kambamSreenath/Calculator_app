@@ -1,0 +1,62 @@
+/* CSS styles */
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-image: url(photo);
+    
+    
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 30px;
+    background-color: black;
+    color: aqua;
+   font-size: 20px;
+  }
+  
+  button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    color: aqua;
+    background-color: black;
+  }
+#one{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}  
+body{
+    background-image:url(back.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 600px) {
+    /* Adjustments for smaller screens (example: mobile devices) */
+    .calculator {
+      width: 90%; /* Adjust the width for better mobile display */
+      margin: 20px auto;
+    }
+  
+    .calculator-display {
+      font-size: 18px; /* Adjust the font size for smaller screens */
+    }
+  
+    button {
+      width: 30px; /* Adjust button size for smaller screens */
+      height: 30px;
+      font-size: 14px; /* Adjust font size for buttons */
+    }
+  }
+  
